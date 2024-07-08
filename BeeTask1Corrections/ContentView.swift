@@ -1,26 +1,24 @@
-//
-//  ContentView.swift
-//  BeeTask1Corrections
-//
-//  Created by Angela maria Erazo lozano on 8/07/24.
-//
-
+// ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = CarMaintenanceViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 20) {
+                    ServiceAppointmentForm(viewModel: viewModel)
+                    
+                    ForEach(Array(viewModel.appointments.enumerated()), id: \.element.id) { index, appointment in
+                        ServiceAppointmentRow(appointment: appointment) {
+                            viewModel.removeAppointment(at: index)
+                        }
+                    }
+                }
+                .padding()
+            }
+            .navigationTitle("Car Maintenance")
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

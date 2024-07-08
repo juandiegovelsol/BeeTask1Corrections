@@ -14,6 +14,11 @@
 		1040ACED2C3C57C300BE3FF2 /* BeeTask1CorrectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040ACEC2C3C57C300BE3FF2 /* BeeTask1CorrectionsTests.swift */; };
 		1040ACF72C3C57C300BE3FF2 /* BeeTask1CorrectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040ACF62C3C57C300BE3FF2 /* BeeTask1CorrectionsUITests.swift */; };
 		1040ACF92C3C57C300BE3FF2 /* BeeTask1CorrectionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040ACF82C3C57C300BE3FF2 /* BeeTask1CorrectionsUITestsLaunchTests.swift */; };
+		1040AD062C3C580500BE3FF2 /* ServiceAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AD052C3C580500BE3FF2 /* ServiceAppointment.swift */; };
+		1040AD082C3C583800BE3FF2 /* CarMaintenanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AD072C3C583800BE3FF2 /* CarMaintenanceViewModel.swift */; };
+		1040AD0A2C3C585F00BE3FF2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AD092C3C585F00BE3FF2 /* CustomTextField.swift */; };
+		1040AD0C2C3C588B00BE3FF2 /* ServiceAppointmentForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AD0B2C3C588B00BE3FF2 /* ServiceAppointmentForm.swift */; };
+		1040AD0E2C3C58CB00BE3FF2 /* ServiceAppointmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040AD0D2C3C58CB00BE3FF2 /* ServiceAppointmentRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		1040ACF22C3C57C300BE3FF2 /* BeeTask1CorrectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTask1CorrectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1040ACF62C3C57C300BE3FF2 /* BeeTask1CorrectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTask1CorrectionsUITests.swift; sourceTree = "<group>"; };
 		1040ACF82C3C57C300BE3FF2 /* BeeTask1CorrectionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTask1CorrectionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1040AD052C3C580500BE3FF2 /* ServiceAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAppointment.swift; sourceTree = "<group>"; };
+		1040AD072C3C583800BE3FF2 /* CarMaintenanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceViewModel.swift; sourceTree = "<group>"; };
+		1040AD092C3C585F00BE3FF2 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1040AD0B2C3C588B00BE3FF2 /* ServiceAppointmentForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAppointmentForm.swift; sourceTree = "<group>"; };
+		1040AD0D2C3C58CB00BE3FF2 /* ServiceAppointmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAppointmentRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				1040ACDA2C3C57BC00BE3FF2 /* BeeTask1CorrectionsApp.swift */,
 				1040ACDC2C3C57BC00BE3FF2 /* ContentView.swift */,
+				1040AD052C3C580500BE3FF2 /* ServiceAppointment.swift */,
+				1040AD072C3C583800BE3FF2 /* CarMaintenanceViewModel.swift */,
+				1040AD092C3C585F00BE3FF2 /* CustomTextField.swift */,
+				1040AD0B2C3C588B00BE3FF2 /* ServiceAppointmentForm.swift */,
+				1040AD0D2C3C58CB00BE3FF2 /* ServiceAppointmentRow.swift */,
 				1040ACDE2C3C57C200BE3FF2 /* Assets.xcassets */,
 				1040ACE02C3C57C200BE3FF2 /* BeeTask1Corrections.entitlements */,
 				1040ACE12C3C57C200BE3FF2 /* Preview Content */,
@@ -260,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1040ACDD2C3C57BC00BE3FF2 /* ContentView.swift in Sources */,
+				1040AD0C2C3C588B00BE3FF2 /* ServiceAppointmentForm.swift in Sources */,
+				1040AD082C3C583800BE3FF2 /* CarMaintenanceViewModel.swift in Sources */,
+				1040AD062C3C580500BE3FF2 /* ServiceAppointment.swift in Sources */,
 				1040ACDB2C3C57BC00BE3FF2 /* BeeTask1CorrectionsApp.swift in Sources */,
+				1040AD0A2C3C585F00BE3FF2 /* CustomTextField.swift in Sources */,
+				1040AD0E2C3C58CB00BE3FF2 /* ServiceAppointmentRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
